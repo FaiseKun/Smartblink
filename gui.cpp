@@ -30,7 +30,7 @@ void Gui::on_lauflichtButton_clicked()
 void Gui::toggle()
 {
     m_state = !m_state;
-    label -> setNum(m_state);
+
     if(m_blinkrun == 1)
     {
         if(m_state == 1)
